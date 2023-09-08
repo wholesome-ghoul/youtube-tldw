@@ -1,0 +1,13 @@
+.container {
+  height: unset;
+  flex-direction: column;
+}
+
+.button {
+  width: 6rem;
+}
+
+.selectedButton {
+  border-bottom: 2px solid var(--fg-color);
+  border-radius: 0;
+}

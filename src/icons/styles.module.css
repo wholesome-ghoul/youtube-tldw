@@ -1,0 +1,13 @@
+.kpIcon {
+  background-color: #2dd4a0;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 #40ff00;
+  opacity: 0.3;
+}
+
+.taIcon {
+  background-color: #ff8479;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 #ff5500;
+  opacity: 0.3;
+}

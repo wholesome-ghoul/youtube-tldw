@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  height: unset;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.row {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.row:hover {
+  background-color: var(--bg-color-secondary);
+}
+
+.timestamp {
+  width: 6rem;
+}
+
+.summary {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+}
+
+.headingContainer {
+  display: flex;
+  padding: 3px;
+  justify-content: flex-start;
+}
+
+.timestampsButton {
+  font-size: 1.25rem;
+}
+
+.icon {
+  opacity: 1;
+}

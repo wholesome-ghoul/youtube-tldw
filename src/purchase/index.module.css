@@ -1,0 +1,10 @@
+.container {
+  height: unset;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dollarSign {
+  font-size: 24px;
+}

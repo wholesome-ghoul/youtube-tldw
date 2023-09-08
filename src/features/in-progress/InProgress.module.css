@@ -1,0 +1,30 @@
+.loadingDotsContainer {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.loadingDots {
+  margin-left: 5px;
+  width: 100px;
+}
+
+.loadingDots::after {
+  content: "";
+  animation: loadingAnimation 2s infinite;
+}
+
+@keyframes loadingAnimation {
+  0%, 20% {
+    content: ".";
+  }
+  40% {
+    content: "..";
+  }
+  60% {
+    content: "...";
+  }
+  80% {
+    content: "";
+  }
+}

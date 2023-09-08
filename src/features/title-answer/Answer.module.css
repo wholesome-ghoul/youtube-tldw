@@ -1,0 +1,20 @@
+.container {
+  height: unset;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.heading {
+  margin-bottom: 0.5rem;
+}
+
+.tldrContainer {
+  margin-bottom: 2rem;
+}
+
+.detailsContainer {}
+
+.detailedAnswer {
+  white-space: pre-wrap;
+}
