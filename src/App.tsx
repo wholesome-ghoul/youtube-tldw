@@ -1,5 +1,11 @@
 import { useState, useEffect } from "react";
-import { Container, Heading, hooks, Input } from "@allaround/all-components";
+import {
+  Container,
+  Heading,
+  hooks,
+  Input,
+  List,
+} from "@allaround/all-components";
 import isNil from "lodash.isnil";
 import debounce from "lodash.debounce";
 
@@ -204,6 +210,22 @@ const App = () => {
                 styles={{ width: "32rem" }}
               />
               <SelectedFeature selectedFeature={selectedFeature} />
+            </Container>
+
+            <Container
+              gridPosition={{ colPos: "1/6", rowPos: 5 }}
+              styles={{ flexDirection: "column" }}
+              noGrid
+              flex
+            >
+              <Heading.h4>Some of the examples</Heading.h4>
+              <List
+                items={[
+                  "https://www.youtube.com/watch?v=InwZhPvjtl0",
+                  "https://www.youtube.com/watch?v=c5-3gotpgz8",
+                  "https://www.youtube.com/watch?v=Ju6Yj5QvIjY",
+                ]}
+              />
             </Container>
 
             <Container
